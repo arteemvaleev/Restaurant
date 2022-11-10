@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Italianno&display=swap&_v=20221110165310"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/style.min.css?_v=20221110165310">
+   <title>reservation</title>
+</head>
+
+<body>
+   <header class="header">
+   <div class="container">
+      <div class="header__top top-header">
+         <div class="top-header__inner">
+            <nav class="top-header__menu">
+               <ul class="top-header__list">
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="index.html">Welcome</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="menu.html">Menu</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="reservation.html">Reservations</a>
+                  </li>
+               </ul>
+            </nav>
+            <a class="top-header__title" href="index.html">48 Cuisine</a>
+            <nav class="top-header__menu">
+               <ul class="top-header__list">
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="about.html">About</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__btn btn" href="#">Order Now</a>
+                  </li>
+               </ul>
+            </nav>
+            <nav class="top-header__menu--burger">
+               <ul class="top-header__list">
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="index.html">Welcome</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="menu.html">Menu</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="reservation.html">Reservations</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="about.html">About</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__link" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="top-header__item">
+                     <a class="top-header__btn btn" href="#">Order Now</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <button class="top-header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+      </div>
+   </div>
+</header>
+   <main>
+      <div class="wrapper">
+         <section class="reservation-top">
+            <div class="container">
+               <div class="reservation-top__inner">
+                  <div class="reservation-top__box ">
+                     <h1 class="reservation-top__title">Reservation</h1>
+                     <p class="reservation-top__text">We have Chinese food, Japanese food, and Korean food</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="options">
+            <div class="container">
+               <div class="options__items">
+                  <div class="options__item">
+                     <picture><source srcset="images/reservation/1.webp" type="image/webp"><img class="options__image" src="images/reservation/1.jpg" alt="image"></picture>
+                     <h3 class="options__title">Individual</h3>
+                     <p class="options__text">48 Cuisine restaurant is a suitable restaurant for private dinners,
+                        romantic dinners, family gatherings, and meetings.
+                     </p>
+                     <p class="options__text">Make your dinner more special with our special restaurant menu.</p>
+                  </div>
+                  <div class="options__item">
+                     <picture><source srcset="images/reservation/2.webp" type="image/webp"><img class="options__image" src="images/reservation/2.jpg" alt="image"></picture>
+                     <h3 class="options__title">Company</h3>
+                     <p class="options__text">Our restaurant can be used for corporate meetings with custom-made
+                        decorations
+                     </p>
+                     <p class="options__text">Make your meetings more special with our special restaurant menu.</p>
+                  </div>
+                  <div class="options__item">
+                     <picture><source srcset="images/reservation/3.webp" type="image/webp"><img class="options__image" src="images/reservation/3.jpg" alt="image"></picture>
+                     <h3 class="options__title">Group</h3>
+                     <p class="options__text">Our restaurant has a large space
+                        which can be used by about 40 to 150 people for community activities, groups, weddings and
+                        others.
+                     </p>
+                     <p class="options__text">We also have several special menus that can be ordered for specific
+                        events.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="booking">
+            <div class="container">
+               <div class="booking__body body-booking">
+                  <h2 class="body-booking__title">Reservation</h2>
+                  <form class="body-booking__form" name="test" method="post">
+                     <div class="body-booking__line">
+                        <input class="body-booking__input" type="text" placeholder="Your Name">
+                        <input class="body-booking__input" type="tel" placeholder="Your Phone">
+                     </div>
+                     <div class="body-booking__line">
+                        <input class="body-booking__input body-booking__input-person" type="text" placeholder="Person">
+                        <input class="body-booking__input body-booking__input-date" type="date" value="2022-09-09"
+                           min="2022-10-01" max="2022-12-31">
+                        <input class="body-booking__input body-booking__input-time" type="time">
+                     </div>
+                     <a class="body-booking__btn btn" href="#">Book A Table</a>
+                  </form>
+               </div>
+            </div>
+         </section>
+      </div>
+   </main>
+   <footer class="footer">
+   <div class="container">
+      <div class="footer__body body-footer">
+         <a class="body-footer__title" href="index.html">48 Cuisine</a>
+         <nav class="body-footer__menu">
+            <ul class="body-footer__list">
+               <li class="body-footer__item">
+                  <a class="body-footer__link" href="menu.html">Menu</a>
+               </li>
+               <li class="body-footer__item">
+                  <a class="body-footer__link" href="reservation.html">Reservation</a>
+               </li>
+               <li class="body-footer__item">
+                  <a class="body-footer__link" href="about.html">About</a>
+               </li>
+               <li class="body-footer__item">
+                  <a class="body-footer__link" href="contact.hnml">Contact Us</a>
+               </li>
+               <li class="body-footer__item">
+                  <a class="body-footer__link" href="#">Social Media</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <div class="footer__copyright copyright-footer">
+         <p class="copyright-footer__text">© 48 Cuisine Restaurant. All Rights Reserved. 2022</p>
+      </div>
+   </div>
+</footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js?_v=20221110165310"></script>
+   <script src="js/app.min.js?_v=20221110165310"></script>
+</body>
+
+</html>
